@@ -109,14 +109,30 @@ body{
     margin: 50px auto;
 }
 .titulo{
-    font-size: 46px;
-    color: #ffffff;
-    margin-bottom: 2px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #142D4E;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top: 2px solid #6B9AC4;
+}
+.titulo-secao{
+    font-size: 50px;
+    color: #142D4E;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top: 2px solid #6B9AC4;
 }
 .subtitulo{
     font-size: 18px;
-    color: #ffffff;
+    color: #142D4E;
     margin-bottom: 30px;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom: 2px solid #6B9AC4;
 }
 .foto{
     display: flex;
@@ -128,6 +144,7 @@ body{
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -135,6 +152,7 @@ body{
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -143,6 +161,7 @@ body{
     height: 100%;
     object-fit: cover;
     margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -151,6 +170,7 @@ body{
     height: 100%;
     object-fit: cover;
     margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -159,6 +179,7 @@ body{
     height: 100%;
     object-fit: cover;
     margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -167,6 +188,7 @@ body{
     height: 100%;
     object-fit: cover;
     margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -175,6 +197,16 @@ body{
     height: 100%;
     object-fit: cover;
     margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-8{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-bottom: 2px solid #6B9AC4;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
@@ -190,16 +222,63 @@ body{
     border-top: 2px solid #C9A227;
 }
 .legenda h2{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: bold;
     color: #142D4E;
     background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
 }
 .legenda p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
     color: #142D4E;
     background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px; 
+}
+.coluna-form{
+    min-width: 320px;
+    color: #142D4E;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: left;
+}
+.area-inscricao{
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+.coluna-form input[type="text"],
+.coluna-form input[type="email"],
+.coluna-form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#ffffff;
+    border-radius: 30px;
+    color: #142D4E;
+    font-size: 17px;
+}
+.btn-enviar{
+    background-image: linear-gradient(to right, #0B132B, #14213D, #1B3A4B);
+    color: #F5F5F5;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
+}
+.btn-limpar{
+    background-image: linear-gradient(to right, #0B132B, #14213D, #1B3A4B);
+    color: #F5F5F5;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-limpar:hover{
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
 }
