@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #FFFFFF;
+    line-height: 1.6; /*espacamento entre linhas*/  
+    background-image: linear-gradient(to right, #0B132B, #14213D, #1B3A4B);
+}
+.cabecalho{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
+    border-radius: 50px;
+    border-bottom: 2px solid #C9A227;
+    border-top: 2px solid #C9A227;
+    
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+.logo{
+    gap: 8px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.navegacao{
+    display: flex;  
+    gap: 25px;
+}
+.menu-links a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 3px;
+    font-weight: 500;
+    transition: color 0.5s ease;
+}
+.redes-sociais{
+    gap: 7px;
+    display: flex;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 15px;
+}
+.redes-sociais a{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu-links a:hover{
+    color: #C9A227;
+}
+.redes-sociais a.whatsapp:hover{
+    color: #25D366;
+}
+.redes-sociais a.facebook:hover{
+    color: #0866FF;
+}
+.redes-sociais a.instagram:hover{
+    background: linear-gradient(#F9CE34, #EE2A7B, #6228D7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+.redes-sociais a.x:hover{
+    color: #000000;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+.imagem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    border-radius: 3px;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*para centralizar a imagem*/
+    text-align: center;
+    color: #ffffff;
+}
+.texto h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-shadow: 0 0 1px #ffffff;
+}
+.texto p{
+    font-size: 20px;
+    text-shadow: 0 0 1px #ffffff;
+}
+.container{
+    max-width: 900px;
+    text-align: center;
+    margin: 50px auto;
+}
+.titulo{
+    font-size: 46px;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+.subtitulo{
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foto-1{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-2{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-3{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-4{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-5{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-6{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.foto-7{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 30px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.rodape{
+    background-image: linear-gradient(to right, #0B132B, #1C2541, #3A506B);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 17px;
+    margin-top: 60px;
+    border-radius: 50px;
+    border-bottom: 2px solid #C9A227;
+    border-top: 2px solid #C9A227;
+}
+.legenda h2{
+    font-size: 27px;
+    font-weight: bold;
+    color: #142D4E;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+}
+.legenda p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #142D4E;
+    background-image: linear-gradient(to right, #DDEBFF, #D8F3DC);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px; 
+}
